@@ -1,7 +1,8 @@
 .env
-*.db
-__pycache__/
-.pytest_cache/
+.env.*
+!.env.example
+venv/
 .venv/
-outputs/*
-!outputs/.gitkeep
+__pycache__/
+*.pyc
+*.db
